@@ -1,0 +1,7 @@
+# testnet
+# API_KEY = 'cf38e7d8bcac7376dafa222cf000071d5b2193c6a482b4ff421d3da5037d9197'
+# API_SECRET = 'c2511e79db86e32f1c74f499e1a134cb54df08c50bd683c4dfe672a8b89fa3b6'
+
+# WickHunter
+API_KEY = 'PJVNlSiegbyuXtpzEHWziilaE7xkRjmxumVAd1lqVhsUZlcZ6vptM5TYe7eit7oE'
+API_SECRET = 'jmNoAWmTchbh1z0aX9mzEbSgVZOrk2oLDUshJKaKbmhaBUQA1qx9lkizk9OIQVWB'
