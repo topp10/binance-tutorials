@@ -1,5 +1,5 @@
 import websocket, json, pprint, talib, numpy
-import config
+import config1
 from binance.client import Client
 from binance.enums import *
 

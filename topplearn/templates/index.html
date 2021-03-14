@@ -4,11 +4,26 @@
         <script src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
     </head>
     <body>
-        <h2>Trades</h2>
+        <h2>{{ title }}</h2>
 
         <div id="chart"></div>
         
         <div id="trades"></div>
+
+        <div id="my_balances">
+            <table>
+                {% for balance in my_balances %}
+                <tr>
+                    <td>
+                        {{ balance['asset'] }}    
+                    </td>
+                    <td>
+                        {{ balance['free'] }}
+                    </td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
 
         <h3>Settings</h3>
 
@@ -36,6 +51,6 @@
             }
             */
         </script>
-        <script src="chart.js"></script>
+        <script src="{{ url_for('static', filename='chart.js')}}"></script>
     </body>
 </html>
